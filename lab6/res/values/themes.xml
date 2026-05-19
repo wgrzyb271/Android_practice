@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Lab4" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="android:windowBackground">@color/orange_main</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.Lab4" parent="Base.Theme.Lab4" />
+
+    <style name="Theme.Lab4.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/blue_main</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/swimming_pool</item>
+
+        <item name="windowSplashScreenAnimationDuration">200</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.Lab4</item>
+    </style>
+</resources>
