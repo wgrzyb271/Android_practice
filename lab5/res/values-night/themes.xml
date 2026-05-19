@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Lab4" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryLightColor</item>
+
+        <item name="android:windowBackground">#2C2C2C</item>
+        <item name="android:statusBarColor">#2C2C2C</item>
+    </style>
+
+    <style name="Theme.Lab4" parent="Base.Theme.Lab4" />
+</resources>
